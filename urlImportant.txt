@@ -1,0 +1,11 @@
+configuration virtual host:   https://john-dugan.com/wamp-vhost-setup/
+
+elastic search PHP:    https://www.elastic.co/guide/en/elasticsearch/client/php-api/1.0/_quickstart.html
+
+tuto openldap: http://soswin-techbits.blogspot.com/2011/10/installing-openldap-on-windows-7.html
+
+design pattern: https://www.tutorialspoint.com/design_pattern/
+
+plugin head elasticsearch : http://localhost:9200/_plugin/head/
+
+gdoc role: https://docs.google.com/spreadsheets/d/16fD-4xj5IBBglEEkipiObfp_-h5ekCtlVS2zsf0ZT2c/edit?invite=CP6Lu9gH&ts=59a91a86#gid=0

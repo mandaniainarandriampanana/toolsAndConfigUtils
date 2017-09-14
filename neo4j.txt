@@ -1,0 +1,9 @@
+#make neo4j online
+=========================================================================================================
+edit these lines in the file  C:\Users\nandrianina.dev\AppData\Roaming\Neo4j Community Edition\neo4j.conf
+dbms.connectors.default_advertised_address=10.2.24.229
+dbms.connectors.default_listen_address=0.0.0.0
+dbms.shell.host=10.2.24.229
+dbms.shell.enabled=true
+dbms.shell.port=1337
+=========================================================================================================

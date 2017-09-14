@@ -1,0 +1,6 @@
+unit test in SF 2.8: phpunit -c app/ src/......
+
+vider elasticsearch: >curl -XDELETE localhost:9200/*
+
+generer les setters et les getters: >php app/console doctrine:generate:entities DO:Profile/Profile
+
