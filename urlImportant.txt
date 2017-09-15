@@ -9,3 +9,5 @@ design pattern: https://www.tutorialspoint.com/design_pattern/
 plugin head elasticsearch : http://localhost:9200/_plugin/head/
 
 gdoc role: https://docs.google.com/spreadsheets/d/16fD-4xj5IBBglEEkipiObfp_-h5ekCtlVS2zsf0ZT2c/edit?invite=CP6Lu9gH&ts=59a91a86#gid=0
+
+fitestena regex php: https://fr.functions-online.com/preg_match.html

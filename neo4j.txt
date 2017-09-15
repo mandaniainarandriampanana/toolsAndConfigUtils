@@ -7,5 +7,5 @@ dbms.shell.host=10.2.43.236
 dbms.shell.enabled=true
 dbms.shell.port=1337
 
-restart neo4j
+restart neo4j server
 =========================================================================================================
