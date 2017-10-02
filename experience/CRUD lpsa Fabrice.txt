@@ -1,0 +1,7 @@
+demarche araana fanaovana crud SOLID:
+	-manova controleur
+	-manova route
+	-mameno fichier de traduction
+	-manova vue                           
+	-service manager
+	-service formHandler

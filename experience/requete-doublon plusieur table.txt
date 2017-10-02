@@ -1,0 +1,18 @@
+SELECT p2.anomalieConstate,e.`depot_id`, e.id
+FROM evenement e
+JOIN depot d2 ON d2.id = e.`depot_id`
+JOIN `paq3se` p2 ON p2.id = e.`paq3se_id`
+JOIN (
+  SELECT paq.anomalieConstate
+        ,evt.`depot_id`
+        ,COUNT(*) ct
+  FROM evenement evt
+  JOIN depot d ON d.id = evt.`depot_id`
+  JOIN `paq3se` paq ON paq.id = evt.`paq3se_id`
+  GROUP BY paq.anomalieConstate, evt.`depot_id`
+  HAVING COUNT(*) > 1
+) cte
+ON e.`depot_id`=cte.`depot_id`
+   AND p2.anomalieConstate=cte.anomalieConstate
+WHERE p2.is_paqssse = 1
+ORDER BY e.`depot_id`, p2.anomalieConstate

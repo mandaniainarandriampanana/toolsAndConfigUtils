@@ -1,0 +1,25 @@
+public function extraireAction(){
+    $workbook = new \PHPExcel;
+    $sheet =$workbook->getActiveSheet();
+    $sheet->setCellValue('F6','aaaaaaaaaaa');
+    $writer = new \PHPExcel_Writer_Excel2007($workbook);
+
+    
+    $workbook->createSheet(1);
+    $workbook->setActiveSheetIndex(1);
+    $workbook->getActiveSheet()->setTitle('TitlA');
+    
+    $objDrawingPType = new \PHPExcel_Worksheet_Drawing();
+    $objDrawingPType->setWorksheet($workbook->setActiveSheetIndex(1));
+    $objDrawingPType->setName("Pareto By Type");
+    $objDrawingPType->setPath('./picture.png');
+    $objDrawingPType->setCoordinates('G1');
+    $objDrawingPType->setOffsetX(1);
+    $objDrawingPType->setOffsetY(5);
+    
+    $records = './fichier.xlsx';
+    $writer->save($records);
+    return new Response("enregistré");
+}
+
+
