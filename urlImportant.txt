@@ -19,3 +19,15 @@ tuto:https://github.com/graphaware/neo4j-php-ogm/blob/master/docs/reference/01-i
 #
 decode jwt online:
 https://py-jwt-decoder.appspot.com/
+
+#mon hebergeur
+https://www.000webhost.com/members/website/list
+
+BDD: name: manana
+	user: manda
+	password: manda001
+	
+redirection .htaccess: https://mediatemple.net/community/products/grid/204643080/how-do-i-redirect-my-site-using-a-htaccess-file
+
+#angular
+cours hafa mlay: https://angular-2-training-book.rangle.io/handout/pipes/using_pipes.html
