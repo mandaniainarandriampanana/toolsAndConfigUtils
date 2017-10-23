@@ -4,3 +4,8 @@ vider elasticsearch: >curl -XDELETE localhost:9200/*
 
 generer les setters et les getters: >php app/console doctrine:generate:entities DO:Profile/Profile
 
+requete SQLyog:
+UPDATE  `bdm_utilisateur`  SET sexe='F' WHERE id_vsetes IN (5,1,9);
+
+UPDATE  `bdm_utilisateur`  SET sexe='M' WHERE id_vsetes NOT IN (5,1,9);
+
