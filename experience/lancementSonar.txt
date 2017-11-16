@@ -1,0 +1,5 @@
+1) lancena aloha ilay .bat sonar
+2) miova dossier de travaille ao amle mis anle sonar.property
+3) lancena atreo @io dossier io le plugin oatra we:
+ cd F:\www\BDM de aveo apetaka eole chemin makany amle plugin sonar oatra we scanner.bet
+	F:\www\BDM> D:/chemin/vers/plugin/connar/scanner.bat    de tsindrina ny entréé de vita
