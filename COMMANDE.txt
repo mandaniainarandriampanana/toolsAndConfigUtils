@@ -9,3 +9,4 @@ UPDATE  `bdm_utilisateur`  SET sexe='F' WHERE id_vsetes IN (5,1,9);
 
 UPDATE  `bdm_utilisateur`  SET sexe='M' WHERE id_vsetes NOT IN (5,1,9);
 
+ALTER TABLE `bdm_utilisateur` CONVERT TO CHARACTER SET latin1 COLLATE latin1_general_cs;

@@ -1,0 +1,22 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# Ceci est un exemple de fichier HOSTS utilisé par Microsoft TCP/IP
+# pour Windows.
+#
+# Ce fichier contient les correspondances des adresses IP aux noms d'hôtes.
+# Chaque entrée doit être sur une ligne propre. L'adresse IP doit être placée
+# dans la première colonne, suivie par le nom d'hôte correspondant. L'adresse
+# IP et le nom d'hôte doivent être séparés par au moins un espace.
+#
+# De plus, des commentaires (tels que celui-ci) peuvent être insérés sur des
+# lignes propres ou après le nom d'ordinateur. Ils sont indiqué par le
+# symbole '#'.
+#
+# Par exemple :
+#
+#      102.54.94.97     rhino.acme.com          # serveur source
+#       38.25.63.10     x.acme.com              # hôte client x
+
+127.0.0.1       localhost
+192.168.0.123   www.mon-domaine2.joe
+192.168.0.123   forum.mondomaine.joe

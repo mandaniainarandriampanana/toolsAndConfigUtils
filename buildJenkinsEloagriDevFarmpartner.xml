@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="eloagri-dev-angular4" default="ci" basedir=".">
+    <property name="version" value="0.0.1" />
+	
+
+	<target name="ci"
+        description="Tâche principale d'intégration continue"
+        depends="clean,package"/>
+ 
+	<target name="clean" description="Vide les répertoires d'artefacts">
+	    <delete dir="${project.basedir}/prepare-build/build/api" />
+	    <delete dir="${project.basedir}/prepare-build/build/code-browser" />
+	    <delete dir="${project.basedir}/prepare-build/build/coverage" />
+	    <delete dir="${project.basedir}/prepare-build/build/logs" />
+	    <delete dir="${project.basedir}/prepare-build/build/pdepend" />
+		<delete dir="${project.basedir}/prepare-build/build/package" />
+		<delete dir="${project.basedir}/prepare-build/build/test" />
+	 
+		<mkdir dir="${project.basedir}/prepare-build/build/api" />
+	    <mkdir dir="${project.basedir}/prepare-build/build/code-browser" />
+	    <mkdir dir="${project.basedir}/prepare-build/build/coverage" />
+	    <mkdir dir="${project.basedir}/prepare-build/build/logs" />
+	    <mkdir dir="${project.basedir}/prepare-build/build/pdepend" />
+		<mkdir dir="${project.basedir}/prepare-build/build/package" />
+		<mkdir dir="${project.basedir}/prepare-build/build/test" />
+	</target>
+     		 
+	<target name="package">
+		<echo msg="supprimer le dossier /tmp/front-end-angular-far/" />
+		<exec command="rm -rf /tmp/front-end-angular-far/" logoutput="true" />		
+    </target>
+	
+	<!-- déployer sur front-end -->
+	<target name="deploy-dev"> 
+		<echo msg="supprimer le dossier /tmp/front-end-angular-far/" />
+		<exec command="rm -rf /tmp/front-end-angular-far/" logoutput="true" />		
+		<echo msg="créer le dossier /tmp/front-end-angular-far/" />
+		<exec command="mkdir -p /tmp/front-end-angular-far/" logoutput="true" />
+		
+		<echo msg="cd /usr/local/bin/composer;ls -la;" />
+ 
+
+ 		<exec command="cd /usr/local/bin/composer;ls -la;" logoutput="true" />
+ 
+		
+	</target>
+ 
+
+</project>

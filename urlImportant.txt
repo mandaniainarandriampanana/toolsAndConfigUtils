@@ -35,3 +35,6 @@ cours hafa mlay: https://angular-2-training-book.rangle.io/handout/pipes/using_p
 #js cours mlay:  http://speakingjs.com/es5/index.html
 
 #url jwt node.js:  https://ciphertrick.com/2017/01/11/token-based-authentication-node-js-using-jwt/
+
+#url interceptor angular:
+https://ryanchenkie.com/angular-authentication-using-the-http-client-and-http-interceptors
